@@ -12,4 +12,10 @@ public class TestService {
 		return "hola micky";
 	}
 	
+	@GetMapping("/hola")
+	public @ResponseBody String hola() {
+		return "hola";
+	}
+	
+	
 }
